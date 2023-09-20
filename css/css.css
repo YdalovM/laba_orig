@@ -1,0 +1,240 @@
+* {
+    padding: 0;
+    margin: 0;
+       
+}
+
+.container {
+    width: 1180px;
+}
+body {
+    
+}
+
+h1 {
+    font-size: 56px;
+    
+}
+
+li {
+    list-style-type: none ;
+    
+}
+
+p {
+    color: rgba(117, 117, 117, 1);
+}
+
+a {
+    text-decoration: none;
+    color: rgba(117, 117, 117, 1);
+    font-weight: 600;
+}
+.text__b {
+    color: black;
+}
+
+/*header*/
+
+.naw {
+    display: flex;
+    justify-content: center;
+    background-color: rgba(246, 245, 244, 1)
+}
+.naw__block {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.naw__text__block {
+    display: flex;
+    align-items: center;
+    
+    
+}
+
+.login__naw {
+    display: flex;
+    align-items: center;
+}
+
+.naw__text {
+    margin-right: 30px;
+    font-family: Montserrat;
+    
+}
+
+.title__naw__text {
+    margin-right: 30px;
+    font-family: Montserrat;
+    color: black;
+    
+}
+
+.sign {
+    color: black;
+    margin-left: 24px;
+}
+
+.but__naw {
+    display: flex;
+    padding: 9px 12px;
+    justify-content: center;
+    align-items: center;
+    gap: 14px;
+    border-radius: 100px;
+    background: var(--primaty-cyan-light, #C3DCE3);
+    border-color: #ffffff;
+}
+
+.name {
+    margin-left: 10px;
+}
+
+
+/*section1*/
+
+.men__flower {
+    background-color: rgba(246, 245, 244, 1);
+    display: flex;
+    justify-content: center;
+}
+
+.block__men {
+    display: flex;
+    padding-bottom: 40px;
+}
+
+.block__text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.men__title__text {
+    width: 531px;
+    font-family: "Dela Gothic One";
+    padding-bottom: 30px;
+}
+
+.pre__title__text {
+    color: var(--primaty-cyan-dark, #2B788B);
+    padding-bottom: 24px;
+}
+
+.pributton__text {
+    padding-bottom: 32px;
+}
+
+.but__men {
+    display: flex;
+    padding: 14px 22px;
+    justify-content: center;
+    align-items: center;
+    gap: 19px;
+    border-radius: 100px;
+    background: var(--primaty-cyan-light, #C3DCE3);
+    border-color: #ffffff;
+    width: 35%;
+    color: #2B788B;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 100%; /* 16px */
+    letter-spacing: -0.64px;
+}
+
+.img__men {
+    padding-top: 109px;
+}
+
+
+/*section2*/
+
+.people__flower {
+    
+    display: flex;
+    justify-content: center;
+}
+
+.block__people {
+    display: flex;
+    padding-bottom: 40px;
+}
+
+.block__text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: Montserrat;
+}
+
+.people__title__text {
+    width: 531px;
+    font-family: "Dela Gothic One";
+    padding-bottom: 30px;
+}
+
+.pre__title__text {
+    color: var(--primaty-cyan-dark, #2B788B);
+    padding-bottom: 24px;
+}
+
+.pributton__text {
+    padding-bottom: 32px;
+}
+
+.but__people {
+    display: flex;
+    padding: 14px 22px;
+    justify-content: center;
+    align-items: center;
+    gap: 19px;
+    border-radius: 100px;
+    background: var(--primaty-cyan-light, #C3DCE3);
+    border-color: #ffffff;
+    width: 35%;
+    color: #2B788B;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 100%; /* 16px */
+    letter-spacing: -0.64px;
+}
+.img__people {
+    padding-top: 109px;
+}
+
+/*footer*/
+
+.block__footer {
+    display: flex;
+    background-color: rgba(246, 245, 244, 1);
+    padding-top: 52px;
+    padding-bottom: 40px;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.text__naw__footer {
+    display: flex;
+    
+}
+
+
+.img__footer {
+    padding-left: 104px;
+}
+
+.text__naw__footer {
+    padding-right: 136px;
+}
+
+.text__footer {
+    margin-left: 30px;
+    font-family: Montserrat;
+}
